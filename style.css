@@ -1,8 +1,9 @@
 :root{
-  --bg:#ff98ee;
-  --card:#ffffff;
+background-image: 
+linear-gradient( 200deg,pink,rgb(241, 138, 255),rgb(178, 150, 255));
+  --card:lab(75.12% 38.61 6.28);
   --muted:#000000;
-  --accent:#ff009d;
+  --accent:#ff45b8;
   --danger:#ff0000;
   --success:#16a34a;
   --radius:12px;
@@ -15,7 +16,7 @@ html,body{height:100%}
 body{
   margin:0;
   background:var(--bg);
-  color:#e605c0;
+  color:#ff00b3;
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
   line-height:1.4;
@@ -52,7 +53,7 @@ body{
 .total-block{
   padding:12px;
   border-radius:10px;
-  background:#fbfdff;
+  background:#ffffff;
   min-width:180px;
   flex:1;
 }
